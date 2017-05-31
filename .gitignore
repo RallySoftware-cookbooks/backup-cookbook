@@ -15,5 +15,5 @@ bin/*
 Berksfile.lock
 Gemfile.lock
 .DS_Store
-
+inspec_output.xml
 .kitchen/*

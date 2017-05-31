@@ -9,7 +9,7 @@ verifier:
   name: inspec
   format: <%= ENV['CI'] ? 'junit' : 'cli' %>
   <% if ENV['CI'] %>
-  output: "test-reports/%{platform}_%{suite}_inspec.xml"
+  output: ./inspec_output.xml
   <% end %>
 
 platforms:
